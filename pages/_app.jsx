@@ -9,7 +9,7 @@ import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
-  const siteUrl = "https://pixelpulse-ruby.vercel.app/";
+  const siteUrl = "https://pixelpulse-ruby.vercel.app";
 
   return (
     <>
@@ -28,8 +28,8 @@ function MyApp({ Component, pageProps }) {
           content="Explore the portfolio of Vikram Singh, a BCA student and full-stack developer building modern web applications and creative digital projects."
         />
         <meta property="og:url" content={`${siteUrl}${router.asPath}`} />
-        <meta property="og:image" content={`${siteUrl}/og-image.png`} />
-        <meta property="og:site_name" content="Vikram Singh Portfolio" />
+        <meta property="og:image" content={`${siteUrl}/og-image.jpeg`} />
+        <meta property="og:site_name" content="PixelPulse Portfolio" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Vikram Singh | Portfolio" />
@@ -37,7 +37,7 @@ function MyApp({ Component, pageProps }) {
           name="twitter:description"
           content="Explore the portfolio of Vikram Singh, a BCA student and full-stack developer."
         />
-        <meta name="twitter:image" content={`${siteUrl}/og-image.png`} />
+        <meta name="twitter:image" content={`${siteUrl}/og-image.jpeg`} />
       </Head>
 
       <Layout>
