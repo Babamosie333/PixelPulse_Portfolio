@@ -9,7 +9,7 @@ import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
-  const siteUrl = "https://pixelpulse.vercel.app";
+  const siteUrl = "https://pixelpulse-ruby.vercel.app/";
 
   return (
     <>
