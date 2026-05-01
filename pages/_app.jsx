@@ -32,7 +32,7 @@ function MyApp({ Component, pageProps }) {
         />
         <meta
           property="og:image"
-          content="https://pixelpulse-ruby.vercel.app/og-image.jpeg"
+          content="https://pixelpulse-ruby.vercel.app/og-image.png"
         />
         <meta property="og:site_name" content="PixelPulse Portfolio" />
 
@@ -44,7 +44,7 @@ function MyApp({ Component, pageProps }) {
         />
         <meta
           name="twitter:image"
-          content="https://pixelpulse-ruby.vercel.app/og-image.jpeg"
+          content="https://pixelpulse-ruby.vercel.app/og-image.png"
         />
       </Head>
 
